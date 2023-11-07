@@ -136,7 +136,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: b88883f9b3b7e4563b09bf6c3958c017, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4134,7 +4134,7 @@ MonoBehaviour:
   controller: {fileID: 823065981}
   anim: {fileID: 436715}
   speed: 4
-  rotSpeed: 600
+  rotSpeed: 400
   rot: 0
   gravity: 8
   running: 0
@@ -5928,9 +5928,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.7
+    x: 0.3
     y: 0.7
-    width: 0.3
+    width: 0
     height: 0.3
   near clip plane: 0.3
   far clip plane: 1000
