@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 129153614}
   - component: {fileID: 129153613}
   m_Layer: 0
-  m_Name: Camera (1)
+  m_Name: Third Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129153612}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &129153614
 Camera:
   m_ObjectHideFlags: 0
@@ -492,7 +492,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 9.5
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -885,6 +885,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b88883f9b3b7e4563b09bf6c3958c017, type: 2}
+    - target: {fileID: 9500000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
 --- !u!1 &605649224 stripped
@@ -1351,7 +1355,7 @@ GameObject:
   - component: {fileID: 1159922497}
   - component: {fileID: 1159922496}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: Top Down Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1364,7 +1368,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159922495}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1159922497
 Camera:
   m_ObjectHideFlags: 0
@@ -1393,7 +1397,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 13
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
